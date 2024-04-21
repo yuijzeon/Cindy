@@ -25,7 +25,7 @@ if (app.get('env') === 'development') {
     });
 }
 
-app.set('port', 52013);
+app.set('port', process.env.PORT || 52013);
 
 const server = app.listen(app.get('port'), function () {
     debug(`Express server listening on port ${(server.address() as AddressInfo).port}`);
