@@ -32,16 +32,13 @@
     <ItemGroup>
         <None Include="app.ts"/>
         <None Include="routes\base.ts"/>
+        <Content Include="public\favicon.ico" />
         <Content Include="tsconfig.json"/>
         <Content Include="package.json"/>
-        <Content Include="public\stylesheets\main.css"/>
         <Content Include="README.md"/>
     </ItemGroup>
     <ItemGroup>
         <Folder Include="public\"/>
-        <Folder Include="public\images\"/>
-        <Folder Include="public\javascripts\"/>
-        <Folder Include="public\stylesheets\"/>
         <Folder Include="routes\"/>
     </ItemGroup>
     <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets"/>
